@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; 
+    
+}
+
+body{
+    font-family: Arial ;
+    min-height: 100vh;
+    background-color: rgb(183, 240, 168);
+}
+#main{
+    width: 100%;
+    height:100vh;
+}
+
+nav{
+    background: #fce566;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: rgb(87, 83, 32);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: rgb(28, 56, 43);
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active{
+    background: rgb(175, 173, 126);
+    transition: .5s;
+   
+}
+
+.checkbtn{
+    font-size: 30px;
+    color:  rgb(28, 56, 43);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
+
+.center{
+    color: rgb(102, 76, 23);
+    margin-bottom: 500px;
+    margin-top: -600px; 
+    padding-left: 50px;
+}
+
+
+.fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #fce566;
+    
+    color: rgb(87, 83, 32);
+    bottom: 0;
+    padding: 20px 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+   
+    font-family: Arial;
+}
+
+
+
+
+
